@@ -1,0 +1,50 @@
+body
+{
+  background-color: black;
+  font-family: 'Architects Daughter', cursive;
+}
+
+h1
+{
+color: red;
+text-align: center;
+font-size: 3rem;
+}
+
+.images
+{
+  text-align: center;
+}
+
+img
+{
+width: 25%;
+height: 25%;
+}
+
+.btn
+{
+  text-align: center;
+}
+
+.button {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  background-color:red;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.button:hover {background-color: #3e8e41}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
